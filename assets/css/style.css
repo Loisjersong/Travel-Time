@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Poppins h';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins p';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+html {
+    font-size: 16px;
+}
+
+html,body {
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins h';
+}
+
+p, button {
+    font-family: 'Poppins p';
+}
+
+@media only screen and (max-width: 768px){
+    html {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    html {
+        font-size: 10px;
+    }
+}
+
+/* ======= Cover Section ======= */
+.cover {
+    background: url(../img/cover-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+.cover h1 {
+    font-size: 6rem;
+    line-height: 144px;
+    font-weight: 700;
+}
+.cover a {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 36px;
+}
+.cover a:hover {
+    color: #00B43D;
+}
+.cover p {
+    font-size: 1.5rem;
+    line-height: 36px;
+}
+.cover button {
+    background-color: #00B43D;
+    outline: none;
+    box-shadow: none;
+}
+
+/* ======= Destination Section ======= */
+.destination {
+    background: url(../img/destination-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+}
+.destination h2 {
+    font-size: 2.5rem;
+    line-height: 60px
+}
+.destination h3 {
+    font-size: 2rem;
+    line-height: 48px;
+}
+.destination p {
+    font-size: 1rem;
+    line-height: 24px;
+}
+.destination .btn {
+    background-color: #4E4E4E73;
+    outline: none;
+    box-shadow: none;
+}
+.col-item {
+    background-color: #58585880;
+}
+
+
+/* ======= About Section ======= */
+.about {
+    background: url(../img/about-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+}
+.about h2 {
+    font-size: 3rem;
+    line-height: 72px;
+}
+.about p {
+    font-size: 2rem;
+    line-height: 48px;
+}
